@@ -15,11 +15,11 @@ body {
   text-align: right;
 }
 
-.main-image img {
+img {
   width: 100%;
 }
 
-.main-image .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -142,13 +142,13 @@ li>button.clear-button:hover {
   color: #cf2323;
 }
 
-button.clear-button img {
+.clear-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.clear-button img:hover {
+.clear-button img:hover {
   transform: rotateZ(0);
 }
 
